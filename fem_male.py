@@ -4,15 +4,6 @@ from modelo_page import modelo_page
 from final import final
 from intro import intro
 from m_imagenes import m_imagenes
-import numpy as np
-import pandas as pd
-import requests
-import os
-import matplotlib.pyplot as plt
-import random
-import matplotlib.image as mpimg
-
-
 
 
 def main():
