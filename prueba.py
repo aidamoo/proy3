@@ -1,9 +1,19 @@
 import streamlit as st
+from PIL import Image
 import numpy as np
+import pandas as pd
+import requests
+import os
 from keras.models import load_model
+import matplotlib.pyplot as plt
+import random
+import matplotlib.image as mpimg
 from keras.preprocessing import image
+import tensorflow as tf
+
 
 def prueba():
+
 
     st.title('¿Hombre o mujer? :thinking_face:')
     st.subheader('	:arrow_left: Sube una foto en la que aperezca una cara')
