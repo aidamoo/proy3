@@ -1,10 +1,10 @@
+keras
+streamlit
+pillow
 numpy
 pandas
-streamlit
-seaborn
 requests
-Pillow
-plotly
-keras==2.7.0
 matplotlib
 tensorflow
+seaborn
+plotly
