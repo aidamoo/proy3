@@ -5,3 +5,5 @@ seaborn
 requests
 pillow
 plotly
+keras
+matplotlib
