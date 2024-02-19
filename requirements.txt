@@ -3,7 +3,8 @@ pandas
 streamlit
 seaborn
 requests
-pillow
+Pillow
 plotly
-keras
+keras==2.7.0
 matplotlib
+tensorflow
