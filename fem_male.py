@@ -12,7 +12,7 @@ from modelo_page import modelo_page
 from final import final
 from intro import intro
 from m_imagenes import m_imagenes
-from keras.preprocessing.image import Image
+from keras.preprocessing import image
 
 
 
