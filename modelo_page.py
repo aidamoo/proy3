@@ -8,7 +8,7 @@ def modelo_page():
     st.title("------Female :woman-tipping-hand: Male :man-tipping-hand:------")
 
     image = Image.open(
-        "https://github.com/Esthergg93/proyecto3/blob/main/imagenes/principal.jpg")
+        "imagenes/principal.jpg")
 
     st.image(image=image,
              caption="CNN",
@@ -24,7 +24,7 @@ def modelo_page():
 
     st.write("Estas características que aprende pueden ser: aristas, colores, formas, conjuntos de píxeles.")
     image1 = Image.open(
-        "https://github.com/Esthergg93/proyecto3/blob/main/imagenes/foto1.jpg")
+        "imagenes/foto1.jpg")
     st.subheader(" Convolucion")
     st.image(image=image1,
              caption="pandas2",
@@ -39,7 +39,7 @@ def modelo_page():
         "En general las capas convolucionales operan sobre tensores 3D, llamados mapas de características (feature maps) donde se tienen las dimensiones de largo y ancho y una tercera que es el canal de las capas RGB.")
     st.subheader("Pooling")
     image2 = Image.open(
-        "https://github.com/Esthergg93/proyecto3/blob/main/imagenes/foto.jpg")
+        "imagenes/foto.jpg")
     st.image(image=image2,
              caption="pandas2",
              use_column_width=True)
