@@ -18,7 +18,7 @@ def prueba():
     st.title('¿Hombre o mujer? :thinking_face:')
     st.subheader('	:arrow_left: Sube una foto en la que aperezca una cara')
 # Cargar el modelo desde el archivo pickle
-    modelo = load_model("https://github.com/Esthergg93/proyecto3/blob/b1964adbcb45ca2bfdcd3916c943545a29a592e2/modelo_female_male_color.h5")
+    modelo = load_model("modelo_female_male_color.h5")
 
     uploaded_file = st.sidebar.file_uploader(label="***:warning: Sube la foto :warning:***", type=["jpg"])
 
