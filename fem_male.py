@@ -11,7 +11,7 @@ import os
 import matplotlib.pyplot as plt
 import random
 import matplotlib.image as mpimg
-from keras.preprocessing import image
+
 
 
 
