@@ -1,23 +1,8 @@
 import streamlit as st
 from PIL import Image
-import numpy as np
 import pandas as pd
-import requests
-import os
-import pickle
-import matplotlib.pyplot as plt
-import random
-import matplotlib.image as mpimg
-from keras.preprocessing import image
-import tensorflow as tf
-from keras.models import Sequential
-from keras.models import Sequential
-from keras.layers import Dense, Conv2D, MaxPooling2D, Flatten, Dropout
-# from keras.preprocessing.image import ImageDataGenerator
 from prueba import prueba
-import seaborn as sns
 import plotly.express as px
-import ast
 from modelo_edad import modelo_edad
 from mod_edad_concreta import edad
 
