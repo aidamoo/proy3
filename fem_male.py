@@ -8,7 +8,6 @@ import pickle
 import matplotlib.pyplot as plt
 import random
 import matplotlib.image as mpimg
-from keras.preprocessing import image
 from modelo_page import modelo_page
 from final import final
 from intro import intro
