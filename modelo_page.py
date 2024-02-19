@@ -8,7 +8,7 @@ import pickle
 import matplotlib.pyplot as plt
 import random
 import matplotlib.image as mpimg
-from keras.preprocessing import image
+from keras.preprocessing import image as keras_image
 
 
 
@@ -16,10 +16,10 @@ def modelo_page():
     st.title("Convolutional Neural Networks (CNN)")
     st.title("------Female :woman-tipping-hand: Male :man-tipping-hand:------")
 
-    image = Image.open(
+    img = Image.open(
         "imagenes/principal.jpg")
 
-    st.image(image=image,
+    st.image(image=img,
              caption="CNN",
              use_column_width=True)
     st.write(
