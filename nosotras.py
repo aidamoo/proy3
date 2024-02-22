@@ -5,19 +5,22 @@ def nosotras():
     st.title("Nuestro equipo")
     st.write("** Esther García **")
     image = Image.open("imagenes/esther.jpeg")
-    st.image(image, caption="Esther García", use_column_width=True)
+    resized_image_esther = image.resize((300, 300)) 
+    st.image(resized_image_esther, caption="Esther García", use_column_width=True)
     st.text("")
 
 
     st.write("**Beatriz Mimosa** ")
     image2 = Image.open("imagenes/bea.jpeg")
-    st.image(image2, caption="Beatriz Mimosa", use_column_width=True)
+    resized_image_bea = image2.resize((300, 300)) 
+    st.image(resized_image_bea, caption="Beatriz Mimosa", use_column_width=True)
     st.text("")
 
 
     st.write("**Aida Amoedo**")
     image3 = Image.open("imagenes/aida.jpeg")
-    st.image(image3, caption="Aida Amoedo", use_column_width=True)
+    resized_image_aida = image3.resize((300, 300)) 
+    st.image(resized_image_aida, caption="Aida Amoedo", use_column_width=True)
     st.text("")
 
 if __name__ == "__main__":
