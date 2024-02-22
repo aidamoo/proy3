@@ -4,6 +4,7 @@ from PIL import Image
 def nosotras():
     st.title("Nuestro equipo")
     st.write("**Esther García**")
+    st.write("**Linkedin: http://linkedin.com/in/esthergarciagonzalezgg**")
     image = Image.open("imagenes/esther.jpeg")
     st.image(image=image, width=200)
     st.text("")
