@@ -10,7 +10,8 @@ def nosotras():
     st.text("")
 
 
-    st.write("**Beatriz Mimosa** ")
+    st.write("**Beatriz Mimosa**")
+    st.write("**Linkedin: http://linkedin.com/in/beatriz-mimosa**")
     image2 = Image.open("imagenes/bea.jpeg")
     st.image(image=image2, width=200)
     st.text("")
