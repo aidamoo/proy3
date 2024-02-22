@@ -3,6 +3,10 @@ from PIL import Image
 
 def nosotras():
     st.title("Nuestro equipo")
+    st.text("")
+    st.write("¡Bienvenido/a! Si has llegado hasta aquí es porque quieres conocer un poco más acerca de las personas que están detrás de este proyecto, ¡¡Te invitamos a que le eches un vistazo a nuestras redes sociales!!")
+
+¡Gracias por ser parte de nuestra comunidad!
     st.write("**Esther García**")
     st.write("**Linkedin: http://linkedin.com/in/esthergarciagonzalezgg**")
     image = Image.open("imagenes/esther.jpeg")
