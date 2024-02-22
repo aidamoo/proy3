@@ -13,11 +13,11 @@ from modelo_page import modelo_page
 from final import final
 from intro import intro
 from m_imagenes import m_imagenes
-
+from nosotras import nosotras
 
 
 def main():
-    menu = ["Introducción", "Modelo CNN", "Muestra aleatoria de imagenes", "Tipos de modelo", "Final"]
+    menu = ["Introducción", "Modelo CNN", "Muestra aleatoria de imagenes", "Tipos de modelo", "Final", "Nuestro equipo"]
 
     st.set_page_config(page_title="CNN",
                        page_icon=":star2:",
@@ -25,7 +25,7 @@ def main():
                        initial_sidebar_state="collapsed")
 
 
-    menu = ["Introducción", "Modelo CNN", "Muestra aleatoria de imagenes", "Tipos de modelo", "Final"]
+    menu = ["Introducción", "Modelo CNN", "Muestra aleatoria de imagenes", "Tipos de modelo", "Final", "Nuestro equipo"]
 
     page = st.sidebar.selectbox(label="Menu", options=menu)
     if page == "Introducción":
@@ -52,6 +52,10 @@ def main():
 
     elif page == "Final":
         final()
+        pass
+
+    elif page == "Nuestro equipo":
+        nosotras()
         pass
 
 if __name__ == "__main__":
